@@ -1,5 +1,154 @@
-<h1>
-  index.html
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew Bliss | Coffee Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .heading { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
 
-<a href="index.html"> HOME </a>
+<body class="bg-[#fffaf5] text-[#3b2416]">
+
+<!-- Navbar -->
+<nav class="bg-[#2b160d] text-white shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold heading text-[#f6c88f]">
+      ☕ Brew Bliss
+    </a>
+
+    <div class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="index.html" class="text-[#f6c88f]">Home</a>
+      <a href="americanocoffee.html" class="hover:text-[#f6c88f]">Americano</a>
+      <a href="blackcoffee.html" class="hover:text-[#f6c88f]">Black Coffee</a>
+      <a href="coldcoffee.html" class="hover:text-[#f6c88f]">Cold Coffee</a>
+      <a href="filtercoffee.html" class="hover:text-[#f6c88f]">Filter Coffee</a>
+      <a href="hotcoffee.html" class="hover:text-[#f6c88f]">Hot Coffee</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="min-h-[90vh] flex items-center bg-cover bg-center"
+style="background-image: linear-gradient(rgba(35,18,10,.7),rgba(35,18,10,.7)),url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80');">
+
+  <div class="max-w-7xl mx-auto px-6 text-center text-white">
+    <p class="text-[#f6c88f] uppercase tracking-[5px] mb-4">Welcome to Brew Bliss</p>
+
+    <h1 class="heading text-5xl md:text-7xl font-bold mb-6">
+      Every Cup Tells a Story
+    </h1>
+
+    <p class="max-w-2xl mx-auto text-lg text-gray-200 mb-8">
+      Freshly roasted beans, rich flavors and unforgettable coffee moments.
+      Discover your perfect cup with us.
+    </p>
+
+    <a href="hotcoffee.html"
+       class="inline-block bg-[#c27b48] hover:bg-[#a96336] px-8 py-4 rounded-full font-semibold transition">
+      Explore Our Coffee ☕
+    </a>
+  </div>
+</section>
+
+<!-- Welcome -->
+<section class="py-20 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <p class="text-[#a96336] uppercase tracking-widest font-semibold">Our Passion</p>
+
+    <h2 class="heading text-4xl md:text-5xl font-bold mt-3 mb-6">
+      Crafted With Love
+    </h2>
+
+    <p class="max-w-3xl mx-auto text-gray-600 leading-8">
+      At Brew Bliss, every coffee is prepared with carefully selected beans,
+      passion and creativity. Whether you love a strong black coffee or a
+      creamy cold coffee, there is something special waiting for you.
+    </p>
+  </div>
+</section>
+
+<!-- Coffee Categories -->
+<section class="bg-[#3b2115] py-20 px-6 text-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <p class="text-[#f6c88f] uppercase tracking-widest">Our Collection</p>
+      <h2 class="heading text-4xl md:text-5xl font-bold mt-2">
+        Choose Your Coffee
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <a href="americanocoffee.html"
+         class="bg-[#513222] rounded-2xl overflow-hidden hover:-translate-y-2 transition shadow-xl">
+        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
+             class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="heading text-2xl font-bold">Americano Coffee</h3>
+          <p class="text-gray-300 mt-2">Smooth, bold and perfectly balanced.</p>
+        </div>
+      </a>
+
+      <a href="coldcoffee.html"
+         class="bg-[#513222] rounded-2xl overflow-hidden hover:-translate-y-2 transition shadow-xl">
+        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80"
+             class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="heading text-2xl font-bold">Cold Coffee</h3>
+          <p class="text-gray-300 mt-2">Chilled, creamy and refreshing.</p>
+        </div>
+      </a>
+
+      <a href="filtercoffee.html"
+         class="bg-[#513222] rounded-2xl overflow-hidden hover:-translate-y-2 transition shadow-xl">
+        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=800&q=80"
+             class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="heading text-2xl font-bold">Filter Coffee</h3>
+          <p class="text-gray-300 mt-2">Traditional taste with rich aroma.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Why Us -->
+<section class="py-20 px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+
+    <div class="p-8 bg-white rounded-2xl shadow-lg">
+      <div class="text-4xl mb-4">🌱</div>
+      <h3 class="heading text-2xl font-bold">Fresh Beans</h3>
+      <p class="text-gray-600 mt-3">Premium quality freshly roasted coffee beans.</p>
+    </div>
+
+    <div class="p-8 bg-white rounded-2xl shadow-lg">
+      <div class="text-4xl mb-4">☕</div>
+      <h3 class="heading text-2xl font-bold">Perfect Taste</h3>
+      <p class="text-gray-600 mt-3">Every cup is crafted for an amazing experience.</p>
+    </div>
+
+    <div class="p-8 bg-white rounded-2xl shadow-lg">
+      <div class="text-4xl mb-4">❤️</div>
+      <h3 class="heading text-2xl font-bold">Made With Love</h3>
+      <p class="text-gray-600 mt-3">We put passion into every cup we serve.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#211109] text-white py-8 text-center">
+  <h2 class="heading text-2xl text-[#f6c88f]">☕ Brew Bliss</h2>
+  <p class="text-gray-400 mt-2">Fresh Coffee • Good Vibes • Happy Moments</p>
+  <p class="text-gray-500 text-sm mt-4">© 2026 Brew Bliss Coffee Store</p>
+</footer>
+
+</body>
+</html>
